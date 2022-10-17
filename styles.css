@@ -1,0 +1,43 @@
+#portfolio {
+    padding: 20px;
+}
+.intro{
+    font-size: 17px;
+}
+
+
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 50vw;
+}
+
+.low-fi-images{
+    float:left;
+    padding: 5px;
+    width: 30vw;
+    border: 1px solid black;
+}
+
+.col{
+    float:left;
+    width: 33.33%;
+    padding:5px;
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+.footer{
+    text-align: left;
+    padding: 3px;
+    color: black;
+    display: block;
+    left:0;
+    bottom:0;
+    width: 100%;
+}
